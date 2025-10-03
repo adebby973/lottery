@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(135deg, #cc5500, #ff8c00);
+}
+
+.win {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.promo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.myroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Lottery numbers row */
+.number {
+  display: flex;
+  /* horizontal */
+  gap: 15px; /* spacing between squares */
+  margin: 15px 0;
+}
+
+.mylab {
+  font-size: 2em;
+  font-weight: bold;
+  color: #222;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #f9f9f9, #e0e0e0);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.2s;
+}
+
+.mylab:hover {
+  transform: scale(1.1);
+  background: linear-gradient(145deg, #fff, #ddd);
+}
+
+/* Button */
+#mybtn {
+  padding: 12px 30px;
+  font-size: 1.3em;
+  border-radius: 8px;
+  border: none;
+  background: #222;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#mybtn:hover {
+  background: #444;
+  transform: scale(1.05);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 2em;
+  font-weight: bold;
+  background: linear-gradient(90deg, gold, yellow);
+
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Image */
+img {
+  width: 250px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+}
